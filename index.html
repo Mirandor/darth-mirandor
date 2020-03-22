@@ -1,93 +1,69 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Darth Mirandor</title>
-    <style type="text/css">
-        body {
-            padding: 0;
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 18px;
-            line-height: 150%;
-            color: black;
-            background: lightslategray;
-        }
+<html lang="en-us">
 
-        header {
-            background: darkslateblue
-        }
+  <head>
 
-        h1 {
-            padding: 24px 0;
-            margin: 0;
-            margin-bottom: 20px;
-            font-size: 28px;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            color: whitesmoke;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width-device-width, initial-scale=1">
+    <title>Miranda Loosle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="customstyle.css" type="text/css">
+    <link rel="stylesheet" href="customstyle.css" type="text/css">
 
-        h2 {
-            font-size: 24px;
-        }
+  </head>
 
-        a {
-            color: paleturquoise;
-            opacity: 0.4;
-        }
+  <body>
 
-        .container {
-            width: 1024px;
-            margin: 0 auto;
-        }
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Mirandor</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
 
-        #main-bio,
-        #contact,
-        #bio-image {
-            float: left;
-        }
+    <main>
+      <div class="container pt-2">
 
-        #main-bio {
-            width: 70%;
-        }
+        <div class="card mb-3 pt-5">
+          <div class="card-title pt-2">
+          <h2 id="about-me">About Me</h2>
+          <hr />
+        </div>
+          <div class="row no-gutters">
 
-        #contact {
-            width: 30%;
-        }
+            <div class="col-md-12">
 
-        #bio-image {
-            width: 200px;
-            height: 200px;
-            margin-right: 20px;
-        }
+              <div class="card-body" id="bio-card">
 
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Darth Mirandor</h1>
-    </header>
+                <img src="Images/green-mimi.png" class="mr-3 rounded-circle" alt="Main Bio Picture" id="bio-image" title="Green hair don't care."/>
 
-    <div class="container">
+                <h5 class="card-title">Miranda Loosle</h5>
 
-        <section id="main-bio">
+                <p class="card-text">Hello there, my name is Miranda Loosle. I am a Utahan living in Texas with my husband and our two cats and dogs. I come from a family of seven, five kids. I am a big fan of horror movies, comic-books, Pokemon, anime, crystals, and cooking.</p>
 
-            <h2>Real name is Miranda Loosle Briggs</h2>
+                <p class="card-text">I’ve worked for the same company for the last nine years; my key highlights from my last nine years of work are being an assistant, event planning, laying the foundation for a new service, managing all support requests and reproducing bugs, QA testing, new feature user story writing, enhancement management, and sprint planning.</p>
 
-            <img id="bio-image" src="https://via.placeholder.com/150">
+                <p class="card-text">Currently working on expanding my knowledge base and experience.</p>
 
-            <p>Name is Miranda. Leo. Year of Monkey. Fire is my element.</p>
-        </section>
+              </div>
 
-        <section id ="contact">
+            </div>
 
-            <h2>Contact Info</h2>
-            <ul>
-                <li><strong>Email:</strong> <a href="mailto:darth.mirandor@gmail.com">darth.mirandor@gmail.com</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/Mirandor" target="_blank">Darth Mirandor</a></li>
-                <li><strong>Portfolio:</strong> <a href="">Coming Soon</a></li>
-            </ul>
-        </section>
-    </div>
-</body>
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </body>
+
 </html>

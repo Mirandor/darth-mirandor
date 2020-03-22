@@ -1,0 +1,49 @@
+body {
+  background-color: #edecec;
+}
+
+.custom-bg-color {
+  background-color: #687098;
+}
+
+#about-me {
+  text-align: center;
+}
+
+#bio-image {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  #bio-image {
+    width: 150px;
+    height: 150px;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  #bio-image {
+    width: 200px;
+    height: 200px;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+  #bio-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+  #bio-image {
+    width: 350px;
+    height: 350px;
+  }
+ }
