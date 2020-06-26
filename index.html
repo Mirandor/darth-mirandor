@@ -13,14 +13,14 @@
     <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 
-    <!-- Custom Style Sheet -->
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="styles.css" type="text/css">
 
   </head>
 
   <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">Mirandor</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,63 +32,70 @@
           <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
-    <main>
-      <div class="container pt-2">
+    <!-- Header -->
+    <header>
+      <h1 class="title">
+        Miranda Loosle
+      </h1>
 
-        <div class="card mb-3 pt-5">
-          <div class="card-title pt-2">
-          <h2 id="about-me">About Me</h2>
-          <hr />
+      <h5 class="subtitle">Well hello there, welcome to my <em>about me</em> page.</h5>
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <hr />
+    </header>
+
+    <!-- Main Page Content -->
+    <main class="wrapper">
+      <div id="relative" >
+
+        <img src="Images/b&w-5.jpg" class="mr-3 rounded border border-dark" alt="Main Bio Picture" id="bio-image" title="Miranda Portrait Image"/>
+
+        <div id="absolute">
+
+          <!-- GitHub -->
+          <a target="_blank" title="GitHub" href="https://github.com/Mirandor">
+            <i class="fab fa-github quick-link">
+            </i>
+          </a>
+          <br />
+          <!-- LinkedIn -->
+          <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/mirandaloosle/">
+            <i class="fab fa-linkedin-in quick-link">
+            </i>
+          </a>
+            
+
+          
         </div>
-          <div class="row no-gutters">
-
-            <div class="col-md-12">
-
-              <div class="card-body" id="bio-card">
-
-                <img src="Images/b&w-5.jpg" class="mr-3 rounded" alt="Main Bio Picture" id="bio-image" title="Green hair don't care."/>
-
-                <h5 class="card-title">Miranda Loosle</h5>
-
-                <p class="card-text">Hello there, my name is Miranda Loosle. I am a Utahan living in Texas with my husband and our two cats and dogs. I come from a family of seven, five kids. I am a big fan of horror movies, comic-books, Pokemon, anime, crystals, and cooking.</p>
-
-                <p class="card-text">I’ve worked for the same company for the last nine years; my key highlights from my last nine years of work are being an assistant, event planning, laying the foundation for a new service, managing all support requests and reproducing bugs, QA testing, new feature user story writing, enhancement management, and sprint planning.</p>
-
-                <p class="card-text">Currently working on expanding my knowledge base and experience.</p>
-
-              </div>
-
-            </div>
-
+        
+        <div class="container pt-2">
+          
+          <div class="float bio-text">
+            <p>My key highlights from the last nine years of work experience include; being an assistant, event planning, laying the foundation for a new service, managing all support requests and reproducing bugs, QA testing, new feature user story writing, enhancement management, and sprint planning.</p>
+            
+            <p>Currently working on expanding my knowledge base and experience.</p>
+            
           </div>
-
+          
         </div>
-
       </div>
 
     </main>
 
-  <footer class="jumbotron">
-      <hr class="my-4">
-      <ul class="list-inline">
-        <li class="list-inline-item mr-5">
-          <a target="_blank" title="GitHub" href="https://github.com/Mirandor">
-            <i class="fab fa-github-square">
-            </i>
-            <span>GitHub</span>
-        </a>
-        </li>
-        <li class="list-inline-item mr-5">
-          <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/mirandaloosle/">
-            <i class="fab fa-linkedin">
-            </i>
-            <span>LinkedIn</span>
-        </a>
-        </li>
-      </ul>
-  </footer>
+    <footer class="clearfix">
+      <hr />
+      <h6 class="est">Sith Lord, Inc. 2020</h6>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

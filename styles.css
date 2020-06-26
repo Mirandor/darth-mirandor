@@ -1,9 +1,53 @@
 body {
-  background-color: #edecec;
+  background-color: #A09ABB;
+  text-align: center;
 }
 
+img {
+  float: left;
+}
+
+a {
+  color: #F1B2AD;
+}
+
+a:hover {
+  color: #EB968E;
+}
 .custom-bg-color {
   background-color: #687098;
+}
+
+.title {
+  font-size: 38px;
+  word-spacing: 10px;
+  letter-spacing: .050em;
+  margin: 5px;
+}
+
+.subtitle {
+  color: #5B5771;
+  font-size: 22px;
+  word-spacing: 5px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  font-weight: light;
+}
+
+.nav-link {
+  color: #5B5771
+}
+.darkvlight {
+  background: linear-gradient(to left, #000 3%, #eeeeee 92%);
+  border-radius: 10px;
+  height: 600px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.quick-link {
+  width: 20px;
+  height: 20px;
 }
 
 #about-me {
@@ -17,13 +61,74 @@ body {
 
 }
 
+#relative {
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#absolute {
+  position: absolute;
+  left: 230px; 
+  bottom: -105px;
+  height: 260px; 
+}
+
+.float {
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.bio-text {
+  line-height: 1.5;
+  font-size: 20px;
+  color: #5B5771;
+  text-align: left;
+}
+
+.est {
+  font-size: 16px;
+  word-spacing: 5px;
+  color: #5B5771;
+}
+
+footer {
+  clear: both;
+  padding: 10px;
+  margin-top: 10px;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
   #bio-image {
-    width: 145px;
-    height: 200px;
+    width: 150px;
+    height: 210px;
+  }
+
+  #absolute {
+    position: absolute;
+    left: 180px; 
+    bottom: -105px;
+    height: 260px; 
   }
  }
+
+ .float {
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.bio-text {
+  opactiy: 0.0;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #5B5771;
+  text-align: left;
+  width: 300px;
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -31,6 +136,21 @@ body {
     width: 200px;
     height: 300px;
   }
+
+  .float {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .bio-text {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #5B5771;
+    text-align: left;
+    width: 545px;
+  }
+
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -39,6 +159,28 @@ body {
     width: 255px;
     height: 400px;
   }
+
+  #absolute {
+    position: absolute;
+    left: 280px; 
+    bottom: -105px;
+    height: 260px; 
+  }
+
+  .float {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .bio-text {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #5B5771;
+    text-align: left;
+    width: 630px;
+  }
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -47,4 +189,32 @@ body {
     width: 300px;
     height: 450px;
   }
+
+  #absolute {
+    position: absolute;
+    left: 330px; 
+    bottom: -105px;
+    height: 260px; 
+  }
+
+  .float {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .bio-text {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #5B5771;
+    text-align: left;
+    width: 1080px;
+  }
+
  }
+
+ .clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
