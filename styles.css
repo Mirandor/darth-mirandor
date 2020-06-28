@@ -3,10 +3,6 @@ body {
   text-align: center;
 }
 
-img {
-  float: left;
-}
-
 a {
   color: #F1B2AD;
 }
@@ -37,43 +33,6 @@ a:hover {
 .nav-link {
   color: #5B5771
 }
-.darkvlight {
-  background: linear-gradient(to left, #000 3%, #eeeeee 92%);
-  border-radius: 10px;
-  height: 600px;
-  padding: 5px;
-  margin: 5px;
-}
-
-.quick-link {
-  width: 20px;
-  height: 20px;
-}
-
-#about-me {
-  text-align: center;
-}
-
-#bio-image {
-  width: 100px;
-  height: 300px;
-  margin-bottom: 20px;
-
-}
-
-#relative {
-  position: relative;
-  height: 200px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-#absolute {
-  position: absolute;
-  left: 230px; 
-  bottom: -105px;
-  height: 260px; 
-}
 
 .float {
   float: right;
@@ -102,40 +61,22 @@ footer {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
-  #bio-image {
-    width: 150px;
-    height: 210px;
+  .float {
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
   }
-
-  #absolute {
-    position: absolute;
-    left: 180px; 
-    bottom: -105px;
-    height: 260px; 
+  
+  .bio-text {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #5B5771;
+    text-align: left;
   }
- }
-
- .float {
-  float: right;
-  padding-top: 5px;
-  padding-right: 5px;
-}
-
-.bio-text {
-  opactiy: 0.0;
-  line-height: 1.5;
-  font-size: 20px;
-  color: #5B5771;
-  text-align: left;
-  width: 300px;
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-  #bio-image {
-    width: 200px;
-    height: 300px;
-  }
 
   .float {
     float: right;
@@ -148,24 +89,12 @@ footer {
     font-size: 20px;
     color: #5B5771;
     text-align: left;
-    width: 545px;
   }
 
  }
 
 /* // Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
-  #bio-image {
-    width: 255px;
-    height: 400px;
-  }
-
-  #absolute {
-    position: absolute;
-    left: 280px; 
-    bottom: -105px;
-    height: 260px; 
-  }
 
   .float {
     float: right;
@@ -178,24 +107,12 @@ footer {
     font-size: 20px;
     color: #5B5771;
     text-align: left;
-    width: 630px;
   }
 
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
-  #bio-image {
-    width: 300px;
-    height: 450px;
-  }
-
-  #absolute {
-    position: absolute;
-    left: 330px; 
-    bottom: -105px;
-    height: 260px; 
-  }
 
   .float {
     float: right;
@@ -208,7 +125,6 @@ footer {
     font-size: 20px;
     color: #5B5771;
     text-align: left;
-    width: 1080px;
   }
 
  }
